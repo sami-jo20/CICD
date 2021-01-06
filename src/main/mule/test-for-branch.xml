@@ -7,5 +7,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	<flow name="test-for-branchFlow" doc:id="b5376edf-2f62-4c4a-b9c0-aebe86a6b1b9" >
 		<http:request method="GET" doc:name="Request" doc:id="18e113c5-0c2c-42b5-9e7a-dffb81210c00" />
 		<logger level="INFO" doc:name="Logger" doc:id="f29a542e-f76b-4b5f-81a2-469734bebcf8" />
+		<http:request method="GET" doc:name="Request" doc:id="853f86c7-bc72-469c-b75b-4200610ccd82" />
 	</flow>
 </mule>
